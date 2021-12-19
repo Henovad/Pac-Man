@@ -1,0 +1,161 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    
+    background-image: url(diagonal-squares.png);
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.status-container{
+    height: 55px;
+}
+
+header{
+    margin: auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: .3em;
+    margin-bottom: 0;
+    font-size: 3.25rem;
+    text-transform: uppercase;
+    color: yellow;
+    
+}
+.score {
+    margin-top: .5em;
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.45rem;
+}
+
+.menu * {
+    display: inline-block;
+}
+
+.btn{
+    margin-right: 2em;
+    font-size: 1rem;
+    padding: 0.5em 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, rgb(255, 81, 0), rgb(146, 22, 125));
+    color: #fff;
+    cursor: pointer; 
+    letter-spacing: 1px;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700x;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.grid div {
+    width: 25px;
+    height: 25px;
+}
+
+.pac-dot {
+    background-image: url(cork-board.png);
+    background-color: rgb(148, 149, 216);
+    border: 5px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.wall {
+    
+    
+    
+    background-color: rgb(22, 22, 77);
+}
+
+.power-pellet {
+    background-image: url(energy-ball.png);
+    background-size: cover;
+    background-color: white
+    
+}
+
+.pacman {
+    background-image: url(pacman.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.ghost-lair {
+    background-color: white
+}
+
+.blinky {
+    
+    background-image: url(blue-ghost.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.pinky {
+    background-image: url(red-ghost.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.inky {
+    background-image: url(green-ghost.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.clyde {
+    background-image: url(yellow-ghost.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.scared-ghost {
+    background-image: url(scared-pacman.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
